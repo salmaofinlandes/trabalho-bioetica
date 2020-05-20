@@ -242,8 +242,48 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 
 /* START CUSTOM CHANGES */
 
+html{
+	scroll-behavior:smooth;
+}
+
 .nomes{
 	font-size:18px;
 	color:white;
 	font-style:italic;
 }
+
+#grad{
+	background-image:linear-gradient(#0A2463,#3a4f82) /*#0081A7 blue color*/
+}
+/* background image class
+.main-image{
+	background-image:url("https://miro.medium.com/max/800/0*MH1HfB5iflaFURAq.jpg");
+	background-position: center; /* Center the image 
+    background-repeat: no-repeat; /* Do not repeat the image 
+	background-size: cover; /* Resize the background image to cover the entire container 
+}
+*/
+
+.progress-container{
+	height:8px;
+	width:100%;
+	backgrund:#ccc;
+}
+
+
+
+.progress-bar{
+	height:8px;
+	width:0%;
+	background:#00AFB9;
+}
+
+
+
+
+
+
+
+
+
+
