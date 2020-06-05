@@ -20,7 +20,14 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 	<a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
     <a href="#" class="w3-bar-item w3-button w3-padding-large w3-white">Início</a>
     <a href="#intro" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Introdução</a>
-    <a href="#t1" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Domínio científico</a>
+	<div class="w3-dropdown-hover">
+		<button class="w3-button w3-hide-small w3-padding-large w3-hover-white"><a href="#t1" style="text-decoration:none;">Domínio científico</a></button>
+		<div class="w3-dropdown-content w3-bar-block w3-card-2">
+			<a href="#cl" class="w3-bar-item w3-button">Clonagem</a>
+			<a href="#es" class="w3-bar-item w3-button">Células estaminais</a>
+			<a href="#tr" class="w3-bar-item w3-button">Trangénese</a>
+		</div>
+	</div>	
     <a href="#t2" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Domínio legal</a>
     <a href="#t3" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Domínio ético</a>
 	<a href="#conclusao" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">Conclusão</a>
@@ -90,13 +97,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <h1>Domínio científico</h1>
       <h5 class="w3-padding-32">De forma a compreender as implicações éticas, legais, econômicas(...) da manipulação genética é necessário compreender o processo responsável pela mesma: o controlo das células de um organismo. Ora, existem três tipos fundamentais de OGM (Organismos Geneticamente Modificados) que são: a clonagem, criação de seres transgénicos e transferências estaminais.
 </h5>
-
-      
-	  <h4>Clonagem</h4>
+	  
+	  <h4 id="cl" style="margin-bottom:30px;">Clonagem</h4>
 	  <p class="w3-text-grey">Tal como o nome indica, <b>a clonagem consiste em repetir os genes de um organismo com o intuito de formar um novo com características genéticas iguais/semelhantes.</b> Assim, este processo pode-se realizar tanto através do sistema reprodutivo como pela cópia de DNA. Enquanto o primeiro se refere em utilizar um núcleo de uma célula reprodutiva com informação genética semelhante ao ser que se pretende clonar como forma de transportar essa mesma informação com o intuito a formar um ser semelhante; o segundo refere-se ao que se espera quando se fala de clonagem em laboratório. Neste processo, um pedaço de DNA do ser é lhe retirado, ao qual é depois tratado em laboratório e reconstruído biologicamente formando um ser muito semelhante ao original.</p>
-	  <h4>Células estaminais</h4>
+	  <h4 id="es" style="margin-bottom:30px;">Células estaminais</h4>
 	  <p class="w3-text-grey">Outro tipo de modificação genética que é realizada é a <b>introdução de células estaminais no sistema do ser, que se caracterizam por não serem especializadas numa função específica.</b> Ou seja, enquanto umas células são especialmente criadas para realizar uma função (como transportar sangue, informação genética e entre outros), as células estaminais têm a capacidade de se dividirem em células que apresentam uma especialização. Este processo mostra-se especialmente útil perante situações em que, por exemplo, o sistema imunitário de um animal se encontra enfraquecida. </p>
-	  <h4>Trangénese</h4>
+	  <h4 id="tr" style="margin-bottom:30px;">Trangénese</h4>
 	  <p class="w3-text-grey">Por fim, diferentes animais apresentam características específicas que lhes permitem sobreviver em certos ecossistemas específicos. Pela globalização do ser humano e pelas suas crescentes necessidades, tornou-se necessário que certos animais apresentassem características que lhes permitissem sobreviver em situações agrestes. Através da transgênese <b>(introdução de células exteriores ao organismo em que foi introduzido)</b>, um ser pode desenvolver caraterísticas específicas que lhe permitam enfrentar certas situações melhores. Adicionalmente, como resultado da realização deste processo, as gerações futuras apresentaram também estas características que foram introduzidas no organismo original.</p>
   </div>
   </div>
@@ -111,12 +117,12 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
       <a><h1>Domínio legal</h1></a>
       <h5 class="w3-padding-32">Tendo em conta que o próprio Papa Francisco refere na sua obra que ”É difícil emitir um juízo geral sobre o desenvolvimento de organismos modificados geneticamente (OMG)” , visto que diferentes países devido aos seus contextos sociais, económicos, políticos e religiosos mantêm diferentes perspetivas relativamente ao mesmo problema.</h5>
 
-      <p class="w3-text-grey">Desta forma, a <b>legislação da atividade em estudo depende da sensibilização da população e dos governantes</b> que pretendem criar alguma lei que regule a manipulação genética em animais. Um exemplo desta situação ocorreu no Brasil, onde a legalização de experiências científicas em animais foi longa e demorada: “Com o advento da Lei 11.105 de março de 2005 - Lei de Biossegurança, os Organismos Geneticamente Modificados foram legalizados no Brasil.”, sendo tal problema referido na Encíclica.“ A questão dos OMG é uma questão de carácter complexo, que requer ser abordada com um olhar abrangente de todos os aspetos.”.</p>
+      <p class="w3-text-grey">Desta forma, a <b>legislação da atividade em estudo depende da sensibilização da população e dos governantes</b> que pretendem criar alguma lei que regule a manipulação genética em animais. Um exemplo desta situação ocorreu no Brasil, onde a legalização de experiências científicas em animais foi longa e demorada: “Com o advento da Lei 11.105 de março de 2005 - Lei de Biossegurança, os Organismos Geneticamente Modificados foram legalizados no Brasil.”, sendo tal problema referido na Encíclica: "A questão dos OMG é uma questão de carácter complexo, que requer ser abordada com um olhar abrangente de todos os aspetos.”.</p>
     </div>
 
     <div class="w3-third w3-center">
       <i class="fa fa-gavel w3-padding-32 w3-text-cyan" style="font-size:200px;"></i>
-	  <p class="w3-text-grey"><i>"(...) a legislação é sempre muito mais lenta do que a ciência."</i> - Rui Nunes, presidente da Associação Portuguesa de Bioética </p>
+	  <p style="margin-left:50px;	"><i>"(...) a legislação é sempre muito mais lenta do que a ciência."</i> - Rui Nunes, presidente da Associação Portuguesa de Bioética </p>
     </div>
   </div>
 </div>
@@ -155,7 +161,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
     </div>
 
     <div class="w3-third w3-center">
-      <i class="fa fa-anchor w3-padding-64 w3-text-red"></i>
+      <i class="fa fa-pencil-square-o w3-padding-64 w3-text-cyan" style="font-size:200px;"></i>
     </div>
   </div>
 </div>
@@ -165,7 +171,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
 <div id="bibliografia" class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
   <div class="w3-content">
     <div class="w3-third w3-center">
-      <i class="fa fa-coffee w3-padding-64 w3-text-red w3-margin-right"></i>
+      <i class="fa fa-quote-right w3-padding-64 w3-text-cyan w3-margin-right" style="font-size:200px;"></i>
     </div>
 
     <div class="w3-twothird">
